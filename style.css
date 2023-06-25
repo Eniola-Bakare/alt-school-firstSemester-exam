@@ -824,11 +824,11 @@ section{
 
    /* desktop three */
    .plans.professional{
-    padding: 95px 106px 148px 65px; 
+    padding: 95px 56px 148px 45px; 
   }
   .plans.basic,
   .plans.teams{
-    padding: 24px 66px 45px 86px;
+    padding: 24px 66px 45px 46px;
   }
 
   /* desktop four */
