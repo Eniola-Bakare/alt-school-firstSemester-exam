@@ -678,7 +678,6 @@ section{
   align-self: flex-end;
   text-align: center;
   margin-top: 25px;
-
 }
 .copyright-footer p{
   color: var(--neutral-800, #112232);
@@ -693,6 +692,16 @@ section{
   /* desktop three */
   .plans.professional{
     padding: 95px 56px 148px 65px; 
+  }
+}
+@media screen and (max-width: 1258px) {
+  /* desktop three */
+  .plans.basic,
+  .plans.teams{
+    padding: 24px 48px 45px 57px;
+  }
+  .plans.professional{
+    padding: 95px 56px 128px 55px; 
   }
 }
 @media screen and (max-width: 1240px) {
@@ -757,14 +766,6 @@ section{
   .price-text-desc{
     width: 68%;
   }
-
-  .plans.basic,
-  .plans.teams{
-    padding: 24px 58px 45px 57px;
-  }
-  .plans.professional{
-    padding: 95px 56px 148px 65px; 
-  }
 }
 
 @media screen and (max-width: 1172px) {
@@ -772,11 +773,17 @@ section{
   /* desktop three second */
   .plans.basic,
   .plans.teams{
-    padding: 24px 58px 45px 37px;
+    padding: 24px 38px 45px 27px;
   }
   .plans.professional{
-    padding: 95px 56px 124px 42px; 
+    padding: 95px 56px 124px 22px; 
   }
+
+    /* desktop seven */
+    .desktop-seven{
+      justify-content: space-between;
+      gap: 18px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -815,6 +822,15 @@ section{
     margin-bottom: 48px;
   }
 
+   /* desktop three */
+   .plans.professional{
+    padding: 95px 106px 148px 65px; 
+  }
+  .plans.basic,
+  .plans.teams{
+    padding: 24px 66px 45px 86px;
+  }
+
   /* desktop four */
   .trim-url-desc,
   .trim-url-desc .highlighted{
@@ -824,6 +840,7 @@ section{
    .form{
     width: 55%;
   }
+
 }
 @media screen and (max-width: 892px) {
   /* desktop three */
@@ -833,6 +850,40 @@ section{
   .price-text-desc{
     width: 85%;
   }
+  /* desktop six */
+  .faq-question{
+    font-size: 16px;
+  }
+
+    /* desktop seven */
+    .desktop-seven{
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .desktop-seven-first{
+      align-self: center;
+      width: 50%;
+      margin-bottom: 30px;
+    }
+    .desktop-seven-second-layer-one,
+    .desktop-seven-second-layer-two{
+      /* flex-direction: column; */
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-self: center;
+      /* text-align: center; */
+      gap: 32px;
+      padding: 0px 20px;
+    }
+    .desktop-seven-second-layer-one{
+      margin-bottom: 30px;
+    }
+
+    .copyright-footer{
+      margin-bottom: 25px;
+      align-self: center;
+    }
 }
 @media screen and (max-width: 875px) {
   .over-lapping-images{
@@ -892,6 +943,15 @@ section{
   .form{
     width: 68%;
   }
+
+  /* desktop seven
+  .desktop-seven-second-layer-one,
+  .desktop-seven-second-layer-two{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    text-align: center;
+  } */
 }
 
 @media screen and (max-width: 692px) {
