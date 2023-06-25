@@ -689,6 +689,12 @@ section{
 
 
 /* media queries */
+@media screen and (max-width: 1382px) {
+  /* desktop three */
+  .plans.professional{
+    padding: 95px 56px 148px 65px; 
+  }
+}
 @media screen and (max-width: 1240px) {
   .hero-big-text,
   .highlighted.url-dash{
