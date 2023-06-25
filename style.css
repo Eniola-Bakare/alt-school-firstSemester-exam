@@ -625,6 +625,9 @@ section{
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  background-image: url(./assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   gap: 20%;
   margin-bottom: 70px;
 }
@@ -638,9 +641,6 @@ section{
   justify-content: space-between;
   align-items: flex-start;
   padding-left: 8px;
-}
-.social-icon{
-  
 }
 
 .desktop-seven-second{
