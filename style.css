@@ -573,19 +573,31 @@ section{
 
 .faq-div{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 32px;
   padding-bottom: 16px;
   border-bottom: 1px solid #d6d6d6;
 }
+.question-icon{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 .faq-question{
   font-size: 20px;
   font-family: Gilroy-Medium;
+  font-weight: bolder;
+  letter-spacing: 1.2px;
   line-height: 32px;
   width: 80%;
 }
-
+.faq-answer{
+  width: 80%;
+}
 /* desktop six */
 .desktop-six{
   display: flex;
