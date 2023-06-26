@@ -837,6 +837,13 @@ section{
     display: flex;
     align-self: center;
   }
+  .log-in-div{
+    width: 120%;
+  }
+  .log-in-div button{
+    width: 120px;
+    padding: 10px 15px;
+  }
 
   /* desktop two */
   .desktop-two-first{
