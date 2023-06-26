@@ -49,6 +49,9 @@ section{
   width: 50%;
   justify-content: space-between;
 }
+.for-mobile-navs{
+  display: none;
+}
 .nav-links{
   list-style: none;
   font-size: 18px;
@@ -178,7 +181,7 @@ section{
 
 .over-lapping-images{
   width: 70%;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   background-image: url(./assets/under_image.png);
   background-position: left;
   background-size: contain;
@@ -680,6 +683,7 @@ section{
   align-self: flex-end;
   text-align: center;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 .copyright-footer p{
   color: var(--neutral-800, #112232);
@@ -736,7 +740,7 @@ section{
     text-align: center;
   }
   .desktop-two-second-right-text{
-    width: 80%;
+    width: 100%;
   }
   .desktop-two-second-right-text-tile{
     display: flex;
@@ -796,7 +800,45 @@ section{
   .nav-bars-div{
     display: flex;
   }
+  .nav-mobile-visible{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: flex-end;
+    padding: 50px 60px;
+    flex-direction: column;
+    width: 50vh;
+    height: 100vh;
+    border-radius: 5%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    animation: all .5 cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .nav-times{
+    color: var(--primary-400);
+  }
+  .header-ul-mobile{
+    width: 100%;
+  }
+  .nav-links-mob,
+  .features-nav-link .nav-links-mob{
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    color: #878686;
+    border-bottom: 1px solid #d6d6d6;
+  }
+  .log-in-div-mobile{
+    display: flex;
+    align-self: center;
+  }
 
+  /* desktop two */
   .desktop-two-first{
     flex-direction: column;
     justify-content: center;
@@ -883,7 +925,6 @@ section{
     }
 
     .copyright-footer{
-      margin-bottom: 25px;
       align-self: center;
     }
 }
