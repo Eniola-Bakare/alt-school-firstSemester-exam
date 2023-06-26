@@ -26,6 +26,7 @@ faqContainer.addEventListener('click', function(e){
 
   // using event propagation to check work the accordion
   if(e.target.classList.contains('question-img')){
+    console.log(e.target, 'before____+++++++++++++++')
     document.querySelectorAll('.question-img').forEach(eachImg => {
       eachImg.src = './assets/plus.svg'
     })
@@ -40,6 +41,7 @@ faqContainer.addEventListener('click', function(e){
     let faqAnswerParticular = parentEl.querySelector('.faq-answer')
     faqAnswer.forEach(eachAns => eachAns.style.display ='none')
     faqAnswerParticular.style.display ='flex'
+
   }
 })
 
